@@ -1,0 +1,38 @@
+numpy
+pandas
+opencv-python
+cmake
+dlib
+face_recognition
+matplotlib
+#python-vlc
+
+# To install face_recognition run
+# pip install cmake
+# pip install dlib
+# if fails then https://stackoverflow.com/questions/41912372/dlib-installation-on-windows-10
+# i.e.
+# Install Dlib from .whl
+# Dlib 19.7.0
+# pip install https://pypi.python.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-win_amd64.whl#md5=b7330a5b2d46420343fbed5df69e6a3f
+# You can test it, downloading an example from the site, for example SVM_Binary_Classifier.py and running it on your machine.
+# Read Here
+# https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f
+# Note: if this message occurs you have to build dlib from source:
+# dlib-19.7.0-cp36-cp36m-win_amd64.whl is not a supported wheel on this platform
+# Install Dlib from source (If the solution above doesn't work)
+# Windows Dlib > 19.7.0
+# Download the CMake installer and install it: https://cmake.org/download/
+#----------------------------------
+# Add CMake executable path to the Enviroment Variables:
+# set PATH="%PATH%;C:\Program Files\CMake\bin"
+# note: The path of the executable could be different from C:\Program Files\CMake\bin, just set the PATH accordingly.
+# note: The path will be set temporarily, to make the change permanent you have to set it in the “Advanced system settings” → “Environment Variables” tab.
+# Restart The Cmd or PowerShell window for changes to take effect.
+# Download the Dlib source(.tar.gz) from the Python Package Index : https://pypi.org/project/dlib/#files extract it and enter into the folder.
+# Check the Python version: python -V. This is my output: Python 3.7.2 so I'm installing it for Python3.x and not for Python2.x
+# note: You can install it for both Python 2 and Python 3, if you have set different variables for different binaries i.e: python2 -V, python3 -V
+# Run the installation: python setup.py install
+#------------------------------------
+# for ANACONDA
+# Need to have the base point to python 3.9
